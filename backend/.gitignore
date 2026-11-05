@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Dataset cache (do not commit ~2GB dataset)
+.cache/
+datasets/
+*.hf/
+
+# Results and outputs
+evaluation_results.json
+batch_results/
+samples/
+
+# Sample invoices (optional - can commit a few examples)
+sample_invoices/*.png
+sample_invoices/*.jpg
+sample_invoices/*.json
+!sample_invoices/README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
